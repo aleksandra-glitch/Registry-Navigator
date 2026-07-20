@@ -22,7 +22,7 @@ jobs:
         env:
           # Вставьте сюда актуальную ссылку «Копировать ссылку» из Dropbox один раз.
           # При редактировании того же файла ссылка больше не меняется.
-          DROPBOX_SHARED_URL: "https://www.dropbox.com/scl/fi/97cq6jiihd9s3pax5mm60/.xlsx?rlkey=jxqpn3p2e4txr1d98fipn5x2q&st=4dk0pu7p&dl=0"
+          DROPBOX_SHARED_URL: "https://www.dropbox.com/scl/fi/97cq6jiihd9s3pax5mm60/.xlsx?rlkey=jxqpn3p2e4txr1d98fipn5x2q&st=7x08wbd5&dl=0"
         run: python scripts/sync_dropbox.py
       - name: Commit new data when it changed
         run: |
