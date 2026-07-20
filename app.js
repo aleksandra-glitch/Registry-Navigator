@@ -1,10 +1,6 @@
-﻿(() => {
+(() => {
   "use strict";
 
-  // В Dropbox должна лежать таблица с теми же заголовками, что в requiredHeaders ниже.
-  // После сохранения таблицы Dropbox отдаёт новую версию по этой же ссылке.
-  const DROPBOX_XLSX_URL = "https://www.dropbox.com/scl/fi/4vci3sqls4ip50198b9c6/.xlsx?rlkey=1zw1hfzrm05f75z33sowxkm8g&st=w4bfo046&dl=0";
-  const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
   let data = Array.isArray(window.REGISTRY_DATA) ? window.REGISTRY_DATA : [];
   const pageSize = 10;
   const state = { query: "", country: "", category: "", sort: "country", page: 1 };
@@ -294,36 +290,9 @@
     toastTimer = setTimeout(() => el("toast").classList.remove("show"), 2800);
   }
 
-  async function loadFromDropbox({ silent = false } = {}) {
-    const refreshButton = el("refreshButton");
-    refreshButton.disabled = true;
-    if (!silent) setDataStatus("Обновляем из Dropbox…");
-    try {
-      if (!window.XLSX) throw new Error("Не удалось загрузить модуль чтения Excel");
-      const response = await fetch(DROPBOX_XLSX_URL + "&cache=" + Date.now(), { cache: "no-store" });
-      if (!response.ok) throw new Error("Dropbox вернул код " + response.status);
-      const workbook = window.XLSX.read(await response.arrayBuffer(), { type: "array" });
-      const firstSheetName = workbook.SheetNames[0];
-      if (!firstSheetName) throw new Error("В файле нет листов");
-      const rows = window.XLSX.utils.sheet_to_json(workbook.Sheets[firstSheetName], { defval: "", raw: false });
-      const headers = rows.length ? Object.keys(rows[0]) : [];
-      const missingHeaders = requiredHeaders.filter(header => !headers.includes(header));
-      if (missingHeaders.length) throw new Error("В таблице нет колонок: " + missingHeaders.join(", "));
-      const nextData = prepareData(rows);
-      if (!nextData.length) throw new Error("В таблице нет заполненных строк");
-      data = nextData;
-      refreshDerivedData();
-      fillFilters();
-      render();
-      setDataStatus("Данные из Dropbox обновлены");
-      if (!silent) showToast("Загружено из Dropbox: " + data.length + " строк");
-    } catch (error) {
-      console.warn("Не удалось загрузить Dropbox:", error);
-      setDataStatus("Показана сохранённая версия данных", true);
-      if (!silent) showToast("Dropbox недоступен. Показана сохранённая версия.");
-    } finally {
-      refreshButton.disabled = false;
-    }
+  function refreshPage() {
+    setDataStatus("Проверяем опубликованную версию…");
+    window.location.reload();
   }
 
   el("searchInput").addEventListener("input", event => { state.query = event.target.value; state.page = 1; render(); });
@@ -333,7 +302,7 @@
   el("resetButton").addEventListener("click", resetFilters);
   el("emptyResetButton").addEventListener("click", resetFilters);
   el("exportButton").addEventListener("click", exportCsv);
-  el("refreshButton").addEventListener("click", () => loadFromDropbox());
+  el("refreshButton").addEventListener("click", refreshPage);
   el("dialogClose").addEventListener("click", () => el("detailsDialog").close());
   el("detailsDialog").addEventListener("click", event => { if (event.target === el("detailsDialog")) el("detailsDialog").close(); });
 
@@ -373,7 +342,7 @@
   refreshDerivedData();
   fillFilters();
   render();
-  loadFromDropbox({ silent: true });
-  window.setInterval(() => loadFromDropbox({ silent: true }), REFRESH_INTERVAL_MS);
+  const updatedAt = window.REGISTRY_DATA_UPDATED_AT;
+  setDataStatus(updatedAt ? "Данные синхронизированы: " + updatedAt : "Сохранённая версия данных", !updatedAt);
 })();
 
