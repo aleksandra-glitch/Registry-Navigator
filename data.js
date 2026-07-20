@@ -47,7 +47,7 @@ window.REGISTRY_DATA = [
     "Country": "Poland",
     "Area of check": "Sanctions screening Poland",
     "Source type": "Sanctions list",
-    "Register / Portal": "Polish sanctions list / Lista osób i podmiotów obj?tych sankcjami",
+    "Register / Portal": "Polish sanctions list / Lista osób i podmiotów objętych sankcjami",
     "Authority": "Ministry of Interior and Administration",
     "What to verify": "Sanctioned individuals and entities, identification details, grounds for listing, restrictive measures applied, date of listing and date of removal, where applicable",
     "Search by": "Full name\nKRS\nNIP",
@@ -80,7 +80,7 @@ window.REGISTRY_DATA = [
     "Country": "Poland",
     "Area of check": "VASP registration verification",
     "Source type": "Regulatory register",
-    "Register / Portal": "Register of Virtual Currency Activities / Rejestr dzia?alno?ci w zakresie walut wirtualnych",
+    "Register / Portal": "Register of Virtual Currency Activities / Rejestr działalności w zakresie walut wirtualnych",
     "Authority": "Director of the Tax Administration Chamber in Katowice",
     "What to verify": "Registration number, company name, NIP, KRS number, type of virtual currency activity, date of entry, suspension or termination of activity",
     "Search by": "Company name\nNIP\nKRS\nRDWW number",
@@ -113,8 +113,8 @@ window.REGISTRY_DATA = [
     "Country": "Lithuania",
     "Area of check": "Corporate verification",
     "Source type": "Public register / open data",
-    "Register / Portal": "Register of Legal Entities / Juridini? asmen? registras",
-    "Authority": "State Enterprise Centre of Registers / Registr? centras",
+    "Register / Portal": "Register of Legal Entities / Juridinių asmenų registras",
+    "Authority": "State Enterprise Centre of Registers / Registrų centras",
     "What to verify": "Company name, legal entity code, registration date, legal form, registered address and company status",
     "Search by": "Company name\nlegal entity code",
     "Link": "https://www.registrucentras.lt/atviri-duomenys-ir-statistika/jar-pirminiai-duomenys-raw-data",
@@ -191,7 +191,7 @@ window.REGISTRY_DATA = [
     "Area of check": "Licence data request / additional licence verification",
     "Source type": "Licence information system / data request service",
     "Register / Portal": "Licensing Information System / LIS",
-    "Authority": "State Enterprise Centre of Registers / Registr? centras",
+    "Authority": "State Enterprise Centre of Registers / Registrų centras",
     "What to verify": "Licence data held in the Licensing Information System for a legal or natural person",
     "Search by": "Company name\nlegal entity code\nrequest by email",
     "Link": "https://www.registrucentras.lt/lt/paslauga/c25b1a91-08bd-484c-a378-8f2f45a61af6",
@@ -427,6 +427,28 @@ window.REGISTRY_DATA = [
     "Search by": "Company name / keywords",
     "Link": "https://fintrac-canafe.canada.ca/pen/4-eng",
     "Notes": "Used to identify whether the company has been subject to FINTRAC administrative monetary penalties or enforcement actions"
+  },
+  {
+    "Country": "Canada",
+    "Area of check": "Apostille verification\nBritish Colimbia, Alberta, Saskatchewan",
+    "Source type": "Apostille e-Register",
+    "Register / Portal": "Government of Canada Apostille e-Register",
+    "Authority": "Global Affairs Canada",
+    "What to verify": "Official online register for verifying apostilles issued by Global Affairs Canada, British Columbia, Alberta and Saskatchewan. Verification is performed using the apostille number and date of issue.",
+    "Search by": "Apostille number / Issue date",
+    "Link": "https://apostille-gac.powerappsportals.com/en/eregister-eregistre/",
+    "Notes": "Used to verify the authenticity and validity of apostilles issued by Global Affairs Canada, British Columbia, Alberta and Saskatchewan."
+  },
+  {
+    "Country": "Canada",
+    "Area of check": "Apostille verification\nOntario",
+    "Source type": "Apostille validity check",
+    "Register / Portal": "Ontario Apostille Validity Check",
+    "Authority": "Official Documents Services (Ontario Ministry of Public and Business Service Delivery and Procurement)",
+    "What to verify": "Official verification service for apostilles issued in the Province of Ontario. Verification is performed using the apostille number and date of issue.",
+    "Search by": "Apostille number / Issue date",
+    "Link": "https://www.officialdocuments.mgcs.gov.on.ca/en-US/validity-check/",
+    "Notes": "Used to verify the authenticity and validity of apostilles issued by the Province of Ontario"
   },
   {
     "Country": "St. Vincent and the Grenadines",
@@ -823,5 +845,17 @@ window.REGISTRY_DATA = [
     "Search by": "Company name / NIF / registration details, where available",
     "Link": "https://app.bde.es/rbe_spa/home",
     "Notes": "Used to verify beneficial ownership information for Spanish legal entities. Access may be restricted to competent authorities, obliged entities or persons with legitimate interest"
+  },
+  {
+    "Country": "Spain",
+    "Area of check": "1",
+    "Source type": "2",
+    "Register / Portal": "3",
+    "Authority": "4",
+    "What to verify": "5",
+    "Search by": "6",
+    "Link": "7",
+    "Notes": "8"
   }
 ];
+window.REGISTRY_DATA_UPDATED_AT = "2026-07-20 19:53 UTC";
