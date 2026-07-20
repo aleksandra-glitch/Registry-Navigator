@@ -1,4 +1,5 @@
 import json
+import io
 import os
 import sys
 import urllib.parse
@@ -33,16 +34,21 @@ shared_url = os.environ.get("DROPBOX_SHARED_URL", "").strip()
 if not shared_url:
     sys.exit("DROPBOX_SHARED_URL is empty")
 
-workbook_path = Path("/tmp/registry-source.xlsx")
 with urllib.request.urlopen(download_url(shared_url), timeout=60) as response:
-    workbook_path.write_bytes(response.read())
+    workbook_bytes = response.read()
 
-workbook = load_workbook(workbook_path, read_only=True, data_only=True)
-worksheet = workbook.active
-headers = [cell_value(cell.value) for cell in next(worksheet.iter_rows(min_row=1, max_row=1))]
-missing = [header for header in REQUIRED_HEADERS if header not in headers]
-if missing:
-    sys.exit("Missing Excel columns: " + ", ".join(missing))
+workbook = load_workbook(io.BytesIO(workbook_bytes), read_only=True, data_only=True)
+worksheet = None
+headers = []
+for candidate in workbook.worksheets:
+    candidate_headers = [cell_value(cell.value) for cell in next(candidate.iter_rows(min_row=1, max_row=1))]
+    if all(header in candidate_headers for header in REQUIRED_HEADERS):
+        worksheet = candidate
+        headers = candidate_headers
+        break
+
+if worksheet is None:
+    sys.exit("No worksheet contains all required Excel columns: " + ", ".join(REQUIRED_HEADERS))
 
 indices = {header: headers.index(header) for header in REQUIRED_HEADERS}
 rows = []
@@ -58,4 +64,4 @@ generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 content = "window.REGISTRY_DATA = " + json.dumps(rows, ensure_ascii=False, indent=2) + ";\n"
 content += "window.REGISTRY_DATA_UPDATED_AT = " + json.dumps(generated_at) + ";\n"
 Path("data.js").write_text(content, encoding="utf-8")
-print(f"Updated {len(rows)} rows at {generated_at}")
+print(f"Updated {len(rows)} rows from worksheet '{worksheet.title}' at {generated_at}")
