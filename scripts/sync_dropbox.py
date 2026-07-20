@@ -18,7 +18,6 @@ def download_url(shared_url: str) -> str:
     parsed = urllib.parse.urlparse(shared_url)
     query = dict(urllib.parse.parse_qsl(parsed.query))
     query["dl"] = "1"
-    query.pop("st", None)
     return urllib.parse.urlunparse(parsed._replace(query=urllib.parse.urlencode(query)))
 
 
