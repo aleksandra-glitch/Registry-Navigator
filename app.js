@@ -3,7 +3,7 @@
 
   // В Dropbox должна лежать таблица с теми же заголовками, что в requiredHeaders ниже.
   // После сохранения таблицы Dropbox отдаёт новую версию по этой же ссылке.
-  const DROPBOX_XLSX_URL = "https://www.dropbox.com/scl/fi/4vci3sqls4ip50198b9c6/.xlsx?rlkey=1zw1hfzrm05f75z33sowxkm8g&st=wm4wvbbs&dl=1";
+  const DROPBOX_XLSX_URL = "https://www.dropbox.com/scl/fi/4vci3sqls4ip50198b9c6/.xlsx?rlkey=1zw1hfzrm05f75z33sowxkm8g&st=n70970eq&dl=0";
   const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
   let data = Array.isArray(window.REGISTRY_DATA) ? window.REGISTRY_DATA : [];
   const pageSize = 10;
