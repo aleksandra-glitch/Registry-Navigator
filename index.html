@@ -1,4 +1,5 @@
-﻿<!doctype html>
+
+<!doctype html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -19,7 +20,7 @@
       </a>
       <div class="nav-actions">
         <span class="data-badge" id="dataStatus"><span class="pulse"></span> Загрузка данных…</span>
-        <button class="ghost-button" id="refreshButton" type="button">Обновить из Dropbox</button>
+        <button class="ghost-button" id="refreshButton" type="button">Проверить обновления</button>
         <button class="ghost-button" id="exportButton" type="button">Экспорт CSV</button>
       </div>    </nav>
 
@@ -141,8 +142,6 @@
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <!-- Библиотека читает .xlsx из Dropbox прямо в браузере. -->
-  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
