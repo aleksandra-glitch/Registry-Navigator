@@ -858,4 +858,4 @@ window.REGISTRY_DATA = [
     "Notes": "8"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-07-28 21:33 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-07-28 22:39 UTC";
