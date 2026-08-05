@@ -847,15 +847,15 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify beneficial ownership information for Spanish legal entities. Access may be restricted to competent authorities, obliged entities or persons with legitimate interest"
   },
   {
-    "Country": "Spain",
-    "Area of check": "1",
-    "Source type": "2",
-    "Register / Portal": "3",
-    "Authority": "4",
-    "What to verify": "5",
-    "Search by": "6",
-    "Link": "7",
-    "Notes": "8"
+    "Country": "USA (Montana)",
+    "Area of check": "Court and adverse litigation check",
+    "Source type": "Court judgments database",
+    "Register / Portal": "Eastern Caribbean Supreme Court Judgments — Commonwealth of Dominica",
+    "Authority": "Eastern Caribbean Supreme Court",
+    "What to verify": "Published judgments, civil disputes, enforcement matters, fraud-related cases, insolvency-related litigation or other adverse litigation involving the company or related parties",
+    "Search by": "Company name / individual name / keywords",
+    "Link": "https://www.eccourts.org/judgments?type=commonwealth-of-dominica",
+    "Notes": "Used to identify adverse litigation, disputes or reputational risks involving the company, UBOs, directors or representatives"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 06:12 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 09:10 UTC";
