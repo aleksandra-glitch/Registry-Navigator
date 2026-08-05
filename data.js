@@ -861,12 +861,12 @@ window.REGISTRY_DATA = [
     "Country": "USA",
     "Area of check": "Money services business registration verification",
     "Source type": "Regulatory information source",
-    "Register / Portal": "Registro Central de Titularidades Reales / RCTIR",
-    "Authority": "Ministry of Justice",
-    "What to verify": "Beneficial ownership information, current beneficial owners of Spanish legal entities, historical beneficial ownership data where available, and information on trusts or similar structures operating in Spain",
-    "Search by": "Company name / NIF / registration details, where available",
+    "Register / Portal": "Money Services Business (MSB) Registrant Search",
+    "Authority": "Financial Crimes Enforcement Network (FinCEN), U.S. Department of the Treasury.",
+    "What to verify": "Legal name, DBA (Doing Business As) name, MSB Registration Number, Registration status, Registration and renewal dates, Registration period, MSB activities, States of MSB activities, Business address, Foreign location (if applicable), Filing history",
+    "Search by": "MSB Registration Number/DCN/Legal Name/DBA Name/Street Address/City, State/ ZIP Code/MSB Activities/States of MSB Activities/Foreign Location",
     "Link": "https://app.bde.es/rbe_spa/home",
-    "Notes": "Used to verify beneficial ownership information for Spanish legal entities. Access may be restricted to competent authorities, obliged entities or persons with legitimate interest"
+    "Notes": "The register is used to verify the registration of a Money Services Business (MSB) with FinCEN"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 13:17 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 15:33 UTC";
