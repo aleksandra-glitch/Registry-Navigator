@@ -849,13 +849,24 @@ window.REGISTRY_DATA = [
   {
     "Country": "USA (Montana)",
     "Area of check": "Court and adverse litigation check",
-    "Source type": "Court judgments database",
-    "Register / Portal": "Eastern Caribbean Supreme Court Judgments — Commonwealth of Dominica",
-    "Authority": "Eastern Caribbean Supreme Court",
-    "What to verify": "Published judgments, civil disputes, enforcement matters, fraud-related cases, insolvency-related litigation or other adverse litigation involving the company or related parties",
-    "Search by": "Company name / individual name / keywords",
-    "Link": "https://www.eccourts.org/judgments?type=commonwealth-of-dominica",
-    "Notes": "Used to identify adverse litigation, disputes or reputational risks involving the company, UBOs, directors or representatives"
+    "Source type": "Public registry authority",
+    "Register / Portal": "Montana Secretary of State Business Search",
+    "Authority": "Montana Secretary of State",
+    "What to verify": "Legal entity name, Entity number, Entity type, Registration date, Current status (Active/Inactive), Registered Agent, Registered office address, Filing history (including Annual Reports and amendments, where applicable).",
+    "Search by": "Company name / entity filing number",
+    "Link": "https://biz.sosmt.gov/search/business",
+    "Notes": "The website is used to verify the legal existence and registration status of business entities registered in Montana"
+  },
+  {
+    "Country": "USA",
+    "Area of check": "Money services business registration verification",
+    "Source type": "Regulatory information source",
+    "Register / Portal": "Registro Central de Titularidades Reales / RCTIR",
+    "Authority": "Ministry of Justice",
+    "What to verify": "Beneficial ownership information, current beneficial owners of Spanish legal entities, historical beneficial ownership data where available, and information on trusts or similar structures operating in Spain",
+    "Search by": "Company name / NIF / registration details, where available",
+    "Link": "https://app.bde.es/rbe_spa/home",
+    "Notes": "Used to verify beneficial ownership information for Spanish legal entities. Access may be restricted to competent authorities, obliged entities or persons with legitimate interest"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 11:30 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 13:17 UTC";
