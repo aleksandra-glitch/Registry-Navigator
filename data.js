@@ -869,4 +869,4 @@ window.REGISTRY_DATA = [
     "Notes": "The register is used to verify the registration of a Money Services Business (MSB) with FinCEN"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 21:43 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 22:44 UTC";
