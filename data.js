@@ -858,4 +858,4 @@ window.REGISTRY_DATA = [
     "Notes": "Used to identify adverse litigation, disputes or reputational risks involving the company, UBOs, directors or representatives"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 09:10 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-05 11:30 UTC";
