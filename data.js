@@ -880,15 +880,103 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify company registration details and corporate information."
   },
   {
-    "Country": "USA",
-    "Area of check": "Money services business registration verification",
-    "Source type": "Regulatory information source",
-    "Register / Portal": "Money Services Business (MSB) Registrant Search",
-    "Authority": "Financial Crimes Enforcement Network (FinCEN), U.S. Department of the Treasury.",
-    "What to verify": "Legal name, DBA (Doing Business As) name, MSB Registration Number, Registration status, Registration and renewal dates, Registration period, MSB activities, States of MSB activities, Business address, Foreign location (if applicable), Filing history",
-    "Search by": "MSB Registration Number/DCN/Legal Name/DBA Name/Street Address/City, State/ ZIP Code/MSB Activities/States of MSB Activities/Foreign Location",
-    "Link": "https://app.bde.es/rbe_spa/home",
-    "Notes": "The register is used to verify the registration of a Money Services Business (MSB) with FinCEN"
+    "Country": "Malta",
+    "Area of check": "Insolvency, liquidation status",
+    "Source type": "Official insolvency register",
+    "Register / Portal": "Corporate Insolvency Register",
+    "Authority": "Office of the Official Receiver, Malta Business Registry (MBR)",
+    "What to verify": "Insolvency proceedings, liquidation status",
+    "Search by": "Company name/ registration number / case reference number /date of opening proceedings.",
+    "Link": "https://corporateinsolvency.mt/Proceeding/Index",
+    "Notes": "The register is used to verify Insolvency proceedings, liquidation status"
+  },
+  {
+    "Country": "Malta",
+    "Area of check": "Financial services licensing",
+    "Source type": "Public registry authority",
+    "Register / Portal": "MFSA Financial Services Register",
+    "Authority": "Malta Financial Services Authority (MFSA)",
+    "What to verify": "Licensing status, regulated activities, authorization details",
+    "Search by": "Entity name, licence number, registration number",
+    "Link": "https://fsr.mfsa.mt/",
+    "Notes": "Used to verify Licensing status, regulated activities, authorization details"
+  },
+  {
+    "Country": "Malta",
+    "Area of check": "Crypto-asset services licensing",
+    "Source type": "Public registry authority",
+    "Register / Portal": "MFSA Financial Services Register",
+    "Authority": "Malta Financial Services Authority (MFSA)",
+    "What to verify": "CASP/VASP authorization, licensing status, permitted crypto-asset services",
+    "Search by": "Entity name, licence number, registration number",
+    "Link": "https://fsr.mfsa.mt/",
+    "Notes": "Used to verify Licensing status, regulated activities, authorization details"
+  },
+  {
+    "Country": "Malta",
+    "Area of check": "Litigation",
+    "Source type": "Public registry authority",
+    "Register / Portal": "eCourts Online Services",
+    "Authority": "Court Services Agency, Malta",
+    "What to verify": "Court proceedings, court judgments",
+    "Search by": "Party name (individual or company), case number",
+    "Link": "https://ecourts.gov.mt/onlineservices",
+    "Notes": "Used to verify Court proceedings, court judgments for companies and civil cases"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Corporate registration",
+    "Source type": "Public registry authority",
+    "Register / Portal": "Invest in Dubai – Search License Information",
+    "Authority": "Dubai Department of Economy and Tourism (DET)",
+    "What to verify": "Company registration details, licence status, business activities",
+    "Search by": "License Number / Dubai Unified License (DUL) Number /English Business Name / Arabic Business Name",
+    "Link": "https://app.invest.dubai.ae/search-license",
+    "Notes": "Used to verify Company registration details, licence status, business activities"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Insolvency, liquidation status",
+    "Source type": "Official insolvency register",
+    "Register / Portal": "Corporate Insolvency Register",
+    "Authority": "Office of the Official Receiver, Malta Business Registry (MBR)",
+    "What to verify": "Insolvency proceedings, liquidation status",
+    "Search by": "Company name/ registration number / case reference number /date of opening proceedings.",
+    "Link": "https://corporateinsolvency.mt/Proceeding/Index",
+    "Notes": "The register is used to verify Insolvency proceedings, liquidation status"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Sanctions",
+    "Source type": "Public registry authority",
+    "Register / Portal": "UAE Local Terrorist List",
+    "Authority": "Executive Office for Control & Non-Proliferation (EOCN)",
+    "What to verify": "National terrorist designation status of individuals and entities",
+    "Search by": "Individual name / entity name",
+    "Link": "https://www.uaeiec.gov.ae/en-us/un-page?p=1",
+    "Notes": "The register is used to verify National terrorist designation status of individuals and entities"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Financial institutions licensing",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "Licensed Financial Institutions Register",
+    "Authority": "Central Bank of the UAE (CBUAE)",
+    "What to verify": "Licensing status, regulatory authorization, licensed activities",
+    "Search by": "Institution name, licence number",
+    "Link": "https://www.centralbank.ae/en/licensing/#!#CBUAE%20Register",
+    "Notes": "The register is used to verify licensing status, regulatory authorization, licensed activities"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Crypto licensing",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "VARA Public Register",
+    "Authority": "Virtual Assets Regulatory Authority (VARA)",
+    "What to verify": "VASP licence status, regulatory authorization, permitted virtual asset activities",
+    "Search by": "Entity name, licence reference",
+    "Link": "https://www.vara.ae/en/licenses-and-register/public-register/",
+    "Notes": "The register is used to verify licensing status, regulatory authorization, licensed activities"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-06 12:18 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-06 14:41 UTC";
