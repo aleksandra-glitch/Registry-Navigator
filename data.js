@@ -867,6 +867,28 @@ window.REGISTRY_DATA = [
     "Search by": "MSB Registration Number/DCN/Legal Name/DBA Name/Street Address/City, State/ ZIP Code/MSB Activities/States of MSB Activities/Foreign Location",
     "Link": "https://app.bde.es/rbe_spa/home",
     "Notes": "The register is used to verify the registration of a Money Services Business (MSB) with FinCEN"
+  },
+  {
+    "Country": "Malta",
+    "Area of check": "Corporate verification",
+    "Source type": "Public register with need to registration",
+    "Register / Portal": "Business Automation Registry Online System (BAROS)",
+    "Authority": "Malta Business Registry",
+    "What to verify": "UBO, Company registration details, company status, registered office, directors, filed corporate documents.**",
+    "Search by": "Company name / registration number",
+    "Link": "https://www.mbr.mt",
+    "Notes": "Used to verify company registration details and corporate information."
+  },
+  {
+    "Country": "USA",
+    "Area of check": "Money services business registration verification",
+    "Source type": "Regulatory information source",
+    "Register / Portal": "Money Services Business (MSB) Registrant Search",
+    "Authority": "Financial Crimes Enforcement Network (FinCEN), U.S. Department of the Treasury.",
+    "What to verify": "Legal name, DBA (Doing Business As) name, MSB Registration Number, Registration status, Registration and renewal dates, Registration period, MSB activities, States of MSB activities, Business address, Foreign location (if applicable), Filing history",
+    "Search by": "MSB Registration Number/DCN/Legal Name/DBA Name/Street Address/City, State/ ZIP Code/MSB Activities/States of MSB Activities/Foreign Location",
+    "Link": "https://app.bde.es/rbe_spa/home",
+    "Notes": "The register is used to verify the registration of a Money Services Business (MSB) with FinCEN"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-06 10:06 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-06 12:18 UTC";
