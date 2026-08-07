@@ -977,6 +977,28 @@ window.REGISTRY_DATA = [
     "Search by": "Entity name, licence reference",
     "Link": "https://www.vara.ae/en/licenses-and-register/public-register/",
     "Notes": "The register is used to verify licensing status, regulatory authorization, licensed activities"
+  },
+  {
+    "Country": "Dubai",
+    "Area of check": "Corporate registration",
+    "Source type": "ACRA BizFile",
+    "Register / Portal": "Invest in Dubai – Search License Information",
+    "Authority": "Accounting and Corporate Regulatory Authority (ACRA)",
+    "What to verify": "Company registration details, licence status, business activities",
+    "Search by": "License Number / Dubai Unified License (DUL) Number /English Business Name / Arabic Business Name",
+    "Link": "https://app.invest.dubai.ae/search-license",
+    "Notes": "Used to verify Company registration details, licence status, business activities"
+  },
+  {
+    "Country": "",
+    "Area of check": "",
+    "Source type": "",
+    "Register / Portal": "",
+    "Authority": "",
+    "What to verify": "",
+    "Search by": "",
+    "Link": "https://www.bizfile.gov.sg/Errors/maintenance.html",
+    "Notes": ""
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-07 13:22 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-07 14:31 UTC";
