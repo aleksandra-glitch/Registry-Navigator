@@ -979,4 +979,4 @@ window.REGISTRY_DATA = [
     "Notes": "The register is used to verify licensing status, regulatory authorization, licensed activities"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-07 10:11 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-07 11:09 UTC";
