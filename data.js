@@ -278,7 +278,7 @@ window.REGISTRY_DATA = [
     "Country": "Switzerland",
     "Area of check": "Corporate verification",
     "Source type": "Public register",
-    "Register / Portal": "ZEFIX / Central Business Name Index",
+    "Register / Portal": "ZEFIX / Central Business Name Index (Всегда Используем!)",
     "Authority": "Federal Commercial Registry Office",
     "What to verify": "Company name, legal form, registered address, company status, UID/registration number, purpose of activity and registered persons",
     "Search by": "Company name / UID / registration number",
@@ -289,7 +289,7 @@ window.REGISTRY_DATA = [
     "Country": "Switzerland",
     "Area of check": "Corporate verification",
     "Source type": "Public register",
-    "Register / Portal": "Cantonal Commercial Registers / Handelsregisterämter",
+    "Register / Portal": "Cantonal Commercial Registers / Handelsregisterämter (Всегда Используем!)",
     "Authority": "Cantonal Commercial Registry Offices",
     "What to verify": "Published company data, legal form, purpose of activity, registered address and registered persons",
     "Search by": "Company name / UID / registration number",
@@ -1001,4 +1001,4 @@ window.REGISTRY_DATA = [
     "Notes": ""
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-08-21 12:00 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-08-21 13:05 UTC";
