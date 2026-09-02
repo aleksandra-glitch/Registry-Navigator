@@ -1001,4 +1001,4 @@ window.REGISTRY_DATA = [
     "Notes": ""
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-09-02 01:15 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-09-02 05:55 UTC";
