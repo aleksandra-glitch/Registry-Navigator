@@ -990,15 +990,15 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify Company registration details, licence status, business activities"
   },
   {
-    "Country": "",
-    "Area of check": "",
-    "Source type": "",
-    "Register / Portal": "",
-    "Authority": "",
-    "What to verify": "",
-    "Search by": "",
-    "Link": "https://www.bizfile.gov.sg/Errors/maintenance.html",
-    "Notes": ""
+    "Country": "Saint Kitts and Nevis",
+    "Area of check": "Corporate registration",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "Corporate Registry Integrated Search System (CRISS)",
+    "Authority": "Nevis Financial Services Regulatory Commission (FSRC)",
+    "What to verify": "Company registration details, registered office,",
+    "Search by": "Entity name",
+    "Link": "https://www.vara.ae/en/licenses-and-register/public-register/",
+    "Notes": "Used to verify Company registration details and corporate information but register is semi public, a lot of information can be obtrained only trhough paid services"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-09-11 09:44 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-09-11 13:52 UTC";
