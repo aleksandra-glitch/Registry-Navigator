@@ -1001,4 +1001,4 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify Company registration details and corporate information but register is semi public, a lot of information can be obtrained only trhough paid services"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-09-12 18:19 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-09-12 20:42 UTC";
