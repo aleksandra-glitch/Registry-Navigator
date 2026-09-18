@@ -1142,6 +1142,28 @@ window.REGISTRY_DATA = [
     "Search by": "Company name / IČO",
     "Link": "https://rzp.gov.cz/verejne-udaje/cs/udaje/vyber-subj",
     "Notes": "Used to verify whether a company or entrepreneur holds the relevant trade licence for its stated business activities."
+  },
+  {
+    "Country": "Germany",
+    "Area of check": "Corporate verification",
+    "Source type": "Official commercial register",
+    "Register / Portal": "Handelsregister / Joint Register Portal of the Länder",
+    "Authority": "German federal states / register courts",
+    "What to verify": "Company name, registration number, legal form, registered office, representatives, shareholder lists and filed register documents",
+    "Search by": "Company name / HRB / HRA / EUID",
+    "Link": "https://www.handelsregister.de/rp_web/welcome.xhtml",
+    "Notes": "Official German commercial/register portal."
+  },
+  {
+    "Country": "Germany",
+    "Area of check": "CASP / crypto-asset service provider verification",
+    "Source type": "Regulatory register / authorisation database",
+    "Register / Portal": "BaFin Unternehmensdatenbank – MiCA / CASP",
+    "Authority": "Federal Financial Supervisory Authority (BaFin)",
+    "What to verify": "Authorisation/supervision of crypto-asset service providers under MiCA and relevant financial institutions providing crypto-asset services",
+    "Search by": "Company name / BaFin ID / authorisation",
+    "Link": "https://portal.mvp.bafin.de/database/InstInfo/",
+    "Notes": "BaFin is the German competent authority for crypto-asset service providers under MiCA. For EU-wide passporting, the ESMA MiCA register may also be relevant."
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-09-18 15:27 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-09-18 18:36 UTC";
