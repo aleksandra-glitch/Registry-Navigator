@@ -999,6 +999,149 @@ window.REGISTRY_DATA = [
     "Search by": "Entity name",
     "Link": "https://www.vara.ae/en/licenses-and-register/public-register/",
     "Notes": "Used to verify Company registration details and corporate information but register is semi public, a lot of information can be obtrained only trhough paid services"
+  },
+  {
+    "Country": "Cyprus",
+    "Area of check": "Apostille verification",
+    "Source type": "Apostille validity check",
+    "Register / Portal": "Cyprus Apostille Validity Check",
+    "Authority": "Ministry of Justice and Public Order of the Republic of Cyprus",
+    "What to verify": "Official verification service for apostilles issued in Cyprus",
+    "Search by": "Certification No. / Random Number",
+    "Link": "https://apostille-validation.mjpo.gov.cy/",
+    "Notes": "Used to verify the authenticity and validity of apostilles issued in the Republic of Cyprus."
+  },
+  {
+    "Country": "Cyprus",
+    "Area of check": "Corporate verification",
+    "Source type": "Official public register",
+    "Register / Portal": "Cyprus Business Entities Register / eSearch",
+    "Authority": "Department of Registrar of Companies and Intellectual Property (DRCIP)",
+    "What to verify": "Company name, registration number, registration date, legal form, status, registered office, directors and secretary, filed documents",
+    "Search by": "Company name / Registration number",
+    "Link": "https://www.companies.gov.cy/en/business-entities/2-company/10-understanding/company-search",
+    "Notes": "Used to verify official corporate registration data in the Cyprus Business Entities Register"
+  },
+  {
+    "Country": "Cyprus",
+    "Area of check": "Crypto-asset licence verification",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "MiCAR CASPs – Licensees (Article 63)",
+    "Authority": "Cyprus Securities and Exchange Commission (CySEC",
+    "What to verify": "Authorised Crypto-Asset Service Providers (CASPs) under Article 63 of MiCA",
+    "Search by": "Company name / Licence details",
+    "Link": "https://www.cysec.gov.cy/en-GB/entities/Crypto-Assets-Entities-(MiCAR)/MiCAR-CASPs/Licensees-(Article-63)/",
+    "Notes": "Used to verify whether a crypto-asset service provider has been authorised by CySEC"
+  },
+  {
+    "Country": "Cyprus",
+    "Area of check": "Payment institution licence verification",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "Register of Payment Institutions",
+    "Authority": "Central Bank of Cyprus (CBC)",
+    "What to verify": "Authorised Payment Institutions, their agents and branches, as well as EU payment institutions passported to provide services in Cyprus",
+    "Search by": "Company name / Licence details",
+    "Link": "https://www.centralbank.cy/en/licensing-supervision/micar-markets-in-crypto-assets-regulation",
+    "Notes": "Used to verify whether a crypto-asset service provider has been authorised by CySEC"
+  },
+  {
+    "Country": "Singapore",
+    "Area of check": "Company registration verification",
+    "Source type": "Official business register",
+    "Register / Portal": "Bizfile",
+    "Authority": "Accounting and Corporate Regulatory Authority (ACRA)",
+    "What to verify": "Company status, registered address, business number, expitry of registration, industry code",
+    "Search by": "Company name / UEN",
+    "Link": "https://www.bizfile.gov.sg/home",
+    "Notes": "Used to verify the registration and corporate details of companies incorporated in Singapore"
+  },
+  {
+    "Country": "Singapore",
+    "Area of check": "Payment / Crypto licence verification",
+    "Source type": "Official regulatory register",
+    "Register / Portal": "Financial Institutions Directory (FID)",
+    "Authority": "Monetary Authority of Singapore (MAS)",
+    "What to verify": "Authorised financial institutions and their licence types and regulated activities",
+    "Search by": "Company name / Licence type / Activity",
+    "Link": "https://eservices.mas.gov.sg/fid/",
+    "Notes": "Used to verify whether a company is authorised by MAS and which regulated payment or digital payment token activities it is permitted to conduct."
+  },
+  {
+    "Country": "France",
+    "Area of check": "Financial regulator / licensed entities verification",
+    "Source type": "Regulatory register",
+    "Register / Portal": "REGAFI.FR – Public register of authorised banking and insurance actors",
+    "Authority": "ACPR / Banque de France",
+    "What to verify": "Entities authorised to operate in France in banking and insurance sectors; identification and scope of authorisation",
+    "Search by": "Company name / authorisation / registration details",
+    "Link": "https://www.regafi.fr/",
+    "Notes": "Official public register launched by ACPR on 1 July 2026; updated daily."
+  },
+  {
+    "Country": "France",
+    "Area of check": "CASP / crypto-asset service provider verification",
+    "Source type": "Regulatory white list",
+    "Register / Portal": "AMF White List – PSCA (MiCA)",
+    "Authority": "Autorité des marchés financiers / AMF",
+    "What to verify": "PSCA authorised/approved to provide crypto-asset services in France, including MiCA authorisation/passport information",
+    "Search by": "Company name / PSCA / authorisation number / country",
+    "Link": "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches",
+    "Notes": "PSCA authorised/approved to provide crypto-asset services in France"
+  },
+  {
+    "Country": "France",
+    "Area of check": "Company registration verification",
+    "Source type": "Official business register",
+    "Register / Portal": "Registre National des Entreprises (RNE) / DATA INPI",
+    "Authority": "Institut National de la Propriété Industrielle (INPI)",
+    "What to verify": "Legal name, SIREN/SIRET, legal form, registered address, activity, representatives, and available corporate documents",
+    "Search by": "Company name / SIREN / SIRET",
+    "Link": "https://data.inpi.fr/",
+    "Notes": "Used to verify the registration and corporate details of companies established in France"
+  },
+  {
+    "Country": "Czech Republic",
+    "Area of check": "Corporate verification",
+    "Source type": "Official public register",
+    "Register / Portal": "Veřejný rejstřík / Obchodní rejstřík",
+    "Authority": "Ministry of Justice of the Czech Republic",
+    "What to verify": "Company name, IČO, legal form, registered office, status, directors/statutory bodies, shareholders where disclosed and filed documents",
+    "Search by": "Company name / IČO / registration number",
+    "Link": "https://or.justice.cz/ias/ui/rejstrik",
+    "Notes": "Official Czech public/commercial register."
+  },
+  {
+    "Country": "Czech Republic",
+    "Area of check": "Financial regulator / licensed entities verification",
+    "Source type": "Regulatory register",
+    "Register / Portal": "JERRS – Seznamy regulovaných a registrovaných subjektů",
+    "Authority": "Czech National Bank (ČNB)",
+    "What to verify": "Licensed, authorised, registered or notified financial-market entities supervised by ČNB",
+    "Search by": "Company name / IČO / licence / registration number",
+    "Link": "https://jerrs.cnb.cz/apljerrsdad/JERRS.WEB07.INTRO_PAGE",
+    "Notes": "Official ČNB register covering regulated and registered financial-market entities."
+  },
+  {
+    "Country": "Czech Republic",
+    "Area of check": "Company information verification",
+    "Source type": "Official administrative register",
+    "Register / Portal": "ARES – Administrativní registr ekonomických subjektů",
+    "Authority": "Ministry of Finance of the Czech Republic",
+    "What to verify": "IČO, company name, legal form, registered address, CZ-NACE and information from connected public registers",
+    "Search by": "Company name / IČO",
+    "Link": "https://ares.gov.cz/ekonomicke-subjekty",
+    "Notes": "Used as an additional official source to verify company identification and economic activity information."
+  },
+  {
+    "Country": "Czech Republic",
+    "Area of check": "Business licence verification",
+    "Source type": "Official business register",
+    "Register / Portal": "Živnostenský rejstřík",
+    "Authority": "Ministry of Industry and Trade of the Czech Republic",
+    "What to verify": "Trade licences, authorised business activities, status and relevant entrepreneur information",
+    "Search by": "Company name / IČO",
+    "Link": "https://rzp.gov.cz/verejne-udaje/cs/udaje/vyber-subj",
+    "Notes": "Used to verify whether a company or entrepreneur holds the relevant trade licence for its stated business activities."
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-09-18 11:50 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-09-18 15:27 UTC";
