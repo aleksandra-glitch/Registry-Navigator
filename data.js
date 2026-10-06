@@ -1164,6 +1164,17 @@ window.REGISTRY_DATA = [
     "Search by": "Company name / BaFin ID / authorisation",
     "Link": "https://portal.mvp.bafin.de/database/InstInfo/",
     "Notes": "BaFin is the German competent authority for crypto-asset service providers under MiCA. For EU-wide passporting, the ESMA MiCA register may also be relevant."
+  },
+  {
+    "Country": "Canada – Newfoundland and Labrado",
+    "Area of check": "Corporate verification",
+    "Source type": "Public register",
+    "Register / Portal": "CADO – Companies and Deeds Online",
+    "Authority": "Government of Newfoundland and Labrador",
+    "What to verify": "Company name, corporation number, company status, incorporation date, registered office, directors",
+    "Search by": "Corporation number, company name",
+    "Link": "https://cado.eservices.gov.nl.ca/Company/CompanyMain.aspx",
+    "Notes": "Used to verify corporate registration and current company information in Newfoundland and Labrador"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-10-06 15:05 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-10-06 20:16 UTC";
