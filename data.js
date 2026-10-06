@@ -1166,4 +1166,4 @@ window.REGISTRY_DATA = [
     "Notes": "BaFin is the German competent authority for crypto-asset service providers under MiCA. For EU-wide passporting, the ESMA MiCA register may also be relevant."
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-10-05 20:46 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-10-06 01:31 UTC";
