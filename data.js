@@ -1177,4 +1177,4 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify corporate registration and current company information in Newfoundland and Labrador"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-10-16 23:33 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-10-17 01:30 UTC";
