@@ -331,6 +331,17 @@ window.REGISTRY_DATA = [
   },
   {
     "Country": "Switzerland",
+    "Area of check": "Regulatory and enforcement screening",
+    "Source type": "Public regulatory database",
+    "Register / Portal": "Publication of Final Rulings",
+    "Authority": "FINMA (Swiss Financial Market Supervisory Authority)",
+    "What to verify": "Published final rulings concerning serious violations of financial supervisory legislation, unauthorised financial activities, cease-and-desist orders and regulatory enforcement measures",
+    "Search by": "Company name; individual name",
+    "Link": "https://www.finma.ch/en/enforcement/enforcement-tools/publication-of-final-rulings/LiquidityOne%20AG",
+    "Notes": "Used to identify published regulatory enforcement actions and final rulings involving companies or individuals."
+  },
+  {
+    "Country": "Switzerland",
     "Area of check": "Cybercrime / fraud warning check",
     "Source type": "Warning list",
     "Register / Portal": "Cybercrimepolice.ch Warning List",
@@ -1177,4 +1188,4 @@ window.REGISTRY_DATA = [
     "Notes": "Used to verify corporate registration and current company information in Newfoundland and Labrador"
   }
 ];
-window.REGISTRY_DATA_UPDATED_AT = "2026-11-16 09:23 UTC";
+window.REGISTRY_DATA_UPDATED_AT = "2026-11-16 19:45 UTC";
